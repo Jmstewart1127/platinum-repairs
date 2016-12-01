@@ -19,7 +19,7 @@ $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup server
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'websiteyour727@gmail.com';                            // SMTP username
-$mail->Password = 'Js1029492';                           // SMTP password
+$mail->Password = '********';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 $mail->IsHTML(true);                                  // Set email format to HTML
 

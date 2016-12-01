@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL);
-$link = mysqli_connect('localhost', 'root', 'Js1029492', 'platinum');
+$link = mysqli_connect('localhost', 'root', '******', 'platinum');
 echo $link->connect_errno;
 
 if ($link->connect_errno) {

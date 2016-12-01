@@ -1,6 +1,6 @@
 <?php
 				
-		$conn = mysqli_connect('localhost', 'root', 'Js1029492', 'platinum'); //Connection to my database
+		$conn = mysqli_connect('localhost', 'root', '*******', 'platinum'); //Connection to my database
         $query = "SELECT promotion FROM promo";
         $statement = mysqli_prepare($conn, $query);
        

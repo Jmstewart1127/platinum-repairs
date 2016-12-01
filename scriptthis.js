@@ -13,7 +13,8 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$('#questions').load(function(){
 		$('#questions').slideUp("fast");
-});
+	});
+	
     $('#qc').click(function() {
     if ($('#questions').is (":hidden")){
       $('#questions').slideDown("fast");
@@ -25,7 +26,8 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$('#slidethis').load(function(){
 		$('#slidethis').slideUp("fast");
-});
+	});
+	
     $('#button').click(function() {
     if ($('#slidethis').is (":hidden")){
       $('#slidethis').slideDown("fast");
@@ -118,7 +120,7 @@ var request;
                 url:'shipMail.php',    //php script
                 type:'POST',
                 data: serializedData
-});
+				});
 
       request.fail(function (jqXHR, textstatus, errorThrown){
         console.error(
@@ -132,13 +134,13 @@ request.always(function () {
 });
 
 event.preventDefault();
-});
+		});
 });
 
 $(document).ready(function() {
 	$('#posted').load(function(){
 		$('#posted').slideUp("fast");
-});
+	});
 });
 
 $(document).ready(function() {
@@ -177,21 +179,21 @@ request.always(function () {
 });
 
 event.preventDefault();
-});
+
+	});
 });
 
 
 $(document).ready(function() {
 	$('#posted1').load(function(){
 		$('#posted1').slideUp("fast");
-});
+	});
 });
 
 $(document).ready(function() {
     $('#contactForm').submit(function() {
       $('#posted1').slideDown("fast");
 	  $('#posted1').is(":visible");
-	  
-	});
+	  });
 });	
 
